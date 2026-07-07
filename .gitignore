@@ -1,0 +1,83 @@
+# ---- Datasets & images (not redistributed) ----
+data/raw/
+data/processed/
+data/images/
+data/**/*.json
+data/**/*.csv
+data/**/*.npy
+data/**/*.npz
+data/**/*.png
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.dcm
+
+# ---- Model weights / checkpoints ----
+checkpoints/**
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+
+# ---- Outputs & logs ----
+outputs/**
+logs/**
+*.log
+
+# ---- Experiment tracking ----
+wandb/
+runs/
+tb/
+tensorboard/
+lightning_logs/
+events.out.tfevents.*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Keep directory placeholders & READMEs ----
+!data/README.md
+!checkpoints/README.md
+!outputs/README.md
+!logs/README.md
+!**/.gitkeep
+
+# Anonymous review cleanup
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+version_*/
+lightning_logs/
+wandb/
+runs/
+logs/
+outputs/
+data/raw/
+data/images/
+data/processed/
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.zip
+*.log
